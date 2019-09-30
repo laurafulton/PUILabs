@@ -1,3 +1,31 @@
+/*see more products on Living room page **/
+function seeMore(id) {
+  /*var moreText = document.getElementById("more");
+  var btnText = document.getElementById("foo");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline"; */
+
+    var e = document.getElementById(id);
+    if (e.style.display)=='block')
+        e.style.display = 'none';
+    else
+        e.style.display = 'block';
+    
+      
+}
+
+
+
+
+/*search with autocomplete in header bar */
+
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,
   the text field element and an array of possible autocompleted values:*/
